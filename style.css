@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
 }
 
 html, body{
@@ -20,10 +21,87 @@ html, body{
 
 #nav
 {
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     margin-top: 40px;
-    background-color: burlywood;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
+
+#nav h1
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -4.5px;
+    margin-bottom: 13px;   
+   
+}
+#nav h2
+{
+    font-size: 18px;
+    height: 100%;
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid black ;
+    text-align: center;
+   
+}
+
+#nav h2:nth-last-child(4)
+{
+   
+    border-left: none;
+}
+
+#nav h2:nth-last-child(1)
+{
+    
+    width: 11%;
+    padding-right: 30px;
+}
+
+#nav h2:nth-last-child(2)
+{
+    width: 27%;
+}
+
+#center
+{
+    width: 100%;
+    height: 82.5%;
+    /* background-color: rebeccapurple; */
+    padding: 3vw 5vw;
+    position: relative;
+}
+
+#content
+{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    position: relative;
+}
+
+
+#content video
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
