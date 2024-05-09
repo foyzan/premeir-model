@@ -33,7 +33,7 @@ html, body{
 
 }
 
-#nav h1
+#nav h1, .logo
 {
     width: 26%;
     display: flex;
@@ -49,7 +49,7 @@ html, body{
    
 }
 
-#nav h1::after
+#nav h1::after, .logo::after
 {
     content: "©️";
     font-family: 'Gilroy-Regular', sans-serif;
@@ -60,7 +60,7 @@ html, body{
     right: 4.3vw;
 
 }
-#nav h1::before
+#nav h1::before, .logo::before
 {
     content: "model management";
     font-family: 'Gilroy-Regular', sans-serif;
@@ -695,6 +695,7 @@ html, body{
     grid-template-columns: 15% 36% 41%;
     grid-template-rows: 40% 60%;
     padding: 4vw 5.5vw;
+    padding-top: 2vw;
     justify-content: space-between;
     align-content: space-between;
 }
@@ -787,10 +788,103 @@ html, body{
 {
     height: 40vh;
     width: 100%;
-   
+    display: grid;
+    grid-template-columns: 25% 15% 20% 40%;
+    grid-template-rows: 35% 65%;
+    justify-content: space-between;
+    border: 2.5px solid black;
+    border-left: none;
+    border-right: none;
+    margin: 6vw 0;
+    margin-bottom: 1vw;
+    grid-gap: 0px;
+
 }
 
+#footer h2
+{
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+    grid-gap: 0px;
+}
+#footer .child1
+{
+    width: 100%;
+    grid-column: 1/2;
+    
+  
+}
 
+#footer .logo::after
+{
+    top: 1.3vw;
+    right: 3.9vw;
+}
+#footer .logo::before
+{
+    bottom: 0.2vw;
+    right: 4.8vw;
+}
+#footer .child2
+{
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 1/-1;
+    display: flex;
+    justify-content: center;
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    padding-top: 2vw;
+    
+    
+}
+#footer .child3
+{
+    width: 100%;
+    height: 100%;
+   
+    grid-column: 3/4;
+    grid-row: 1/-1;
+    display: flex;
+    justify-content: center;
+    border-right: 2.5px solid black;
+    padding-top: 2vw;
+    
+}
+#footer .child4
+{
+    width: 100%;
+    height: 100%;
+ 
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border-bottom: 2.5px solid black;
+    padding-top: 2vw;
+    padding-left: 3.5vw;
+}
+#footer .info_social
+{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    grid-column: 4/5;
+    grid-row: 2/-1;
+    padding-top: 2vw;
+    padding-left: 3.5vw;
+}
+
+#extra
+{
+    height: 1vw;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+.last
+{
+
+}
 @keyframes mover {
     from
     {
