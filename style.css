@@ -572,7 +572,7 @@ html, body{
 {
     height: 100%;
     width: 100%;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 
 #page5 .page5_left img
@@ -784,21 +784,20 @@ html, body{
 
 
 
-#footer
-{
+#footer {
     height: 40vh;
     width: 100%;
     display: grid;
     grid-template-columns: 25% 15% 20% 40%;
     grid-template-rows: 35% 65%;
     justify-content: space-between;
-    border: 2.5px solid black;
-    border-left: none;
-    border-right: none;
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    /* border-left: none;
+    border-right: none; */
     margin: 6vw 0;
     margin-bottom: 1vw;
     grid-gap: 0px;
-
 }
 
 #footer h2
@@ -826,8 +825,7 @@ html, body{
     bottom: 0.2vw;
     right: 4.8vw;
 }
-#footer .child2
-{
+#footer .child2 {
     width: 100%;
     height: 100%;
     grid-column: 2/3;
@@ -835,10 +833,8 @@ html, body{
     display: flex;
     justify-content: center;
     border-right: 2.5px solid black;
-    border-bottom: 2.5px solid black;
+    /* border-bottom: 2.5px solid black; */
     padding-top: 2vw;
-    
-    
 }
 #footer .child3
 {
